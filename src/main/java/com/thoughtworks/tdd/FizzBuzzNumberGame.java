@@ -7,6 +7,8 @@ public class FizzBuzzNumberGame {
 			return "fizzbuzz";
 		} else if ((number%3 == 0) && (number%7 == 0)) {
 			return "fizzwhizz";
+		} else if ((number%5 == 0) && (number%7 == 0)) {
+			return "buzzwhizz";
 		} else if (number%5 == 0) {
 			return "buzz";
 		} else if (number%7 == 0) {
