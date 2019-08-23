@@ -7,6 +7,8 @@ public class FizzBuzzNumberGame {
 			return "fizz";
 		} else if (number%5 == 0) {
 			return "buzz";
+		} else if (number%7 == 0) {
+			return "whizz";
 		}
 		return String.valueOf(number);
 	}
