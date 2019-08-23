@@ -96,5 +96,18 @@ public class FizzBuzzNumberGameTest {
 		// then
 		Assertions.assertEquals("buzzwhizz", result);
 	}
+	
+	@Test
+	public void should_return_fizzbuzzwhizz_when_fizzBuzz_given_105() {
+		// given
+		int number = 105;
+		FizzBuzzNumberGame fizzBuzzNumberGame = new FizzBuzzNumberGame();
+		
+		// when
+		String result = fizzBuzzNumberGame.fizzBuzz(number);
+		
+		// then
+		Assertions.assertEquals("fizzbuzzwhizz", result);
+	}
 
 }
